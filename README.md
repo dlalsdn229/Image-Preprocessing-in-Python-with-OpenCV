@@ -1,2 +1,4 @@
 # python-opencv-img-preprocessing
-filtering blackout, reflected image
+
+Abstract
+This paper presents a classification of the retinal image set into available and not available to obtain only available images using the python environment. Classification processing begins with a large category of classification. The classification of the large category is decided fundus images using feature extraction. Features used include the retinal vascular and optic disc. After selecting the fundus image we classify the not available images. The retinal image-set contains normal images and not available images that reflected or blackout. we use Python Opencv that is an image processing library. In blackout images classifying, we have weighted the pixel luminance so we can figure out a partial blackout. On the other hand, in reflected images classifying, the area where light reflection occurs is divided into 4parts and classified by comparing with adjacent pixels.
